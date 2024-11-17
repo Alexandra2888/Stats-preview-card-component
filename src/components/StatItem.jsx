@@ -20,7 +20,7 @@ const StatItem = ({ value, label }) => {
             className="text-center md:text-left"
         >
             <div className="text-2xl font-bold text-neutral-white mb-1">{value}</div>
-            <div className="font-lexend text-xs uppercase text-white/60 tracking-wider">
+            <div className="font-lexend text-xs uppercase text-neutral-white-75 tracking-wider">
                 {label}
             </div>
         </motion.div>
